@@ -21,6 +21,7 @@ Sample data is attached as an assumed file, so please check it once.
 
 3.各ファイルを一つに並べます。
 
+3. Arrange each file in one.
 
 ４.整列.ipynb：できるだけ近いRTタイムを並列させます。
 
