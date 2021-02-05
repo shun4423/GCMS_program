@@ -9,6 +9,22 @@ This program is based on the data analyzed by GCMS QP2010SE (Shimadzu Corporatio
 Sample data is attached as an assumed file, so please check it once.
 
 # Features
+1.絞り込み,2.IFERROR,3.まとめ.ipynb：
+
+１.もっとも高いSIから５〜６こ残し、あとは削除します。これを各ピークで行います。
+
+1. Leave 5 to 6 from the highest SI and delete the rest. Do this at each peak.
+
+２.IFERROR関数を入力し、面積を書き込みます。
+
+2. Enter the IFERROR function and write the area.
+
+3.各ファイルを一つに並べます。
+
+
+４.整列.ipynb：できるだけ近いRTタイムを並列させます。
+
+Parallel RT times as close as possible.
 
 
 
