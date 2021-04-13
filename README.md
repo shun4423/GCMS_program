@@ -3,6 +3,8 @@
 
 This program is based on the data analyzed by GCMS QP2010SE (Shimadzu Corporation) and output by GCMS solution.
 
+
+
 # DEMO
 想定しているファイルとして、サンプルデータを付けていますので、一度ご確認ください。
 
@@ -32,7 +34,7 @@ Parallel RT times as close as possible.
 # Requirement
 anacondaを前提にしています。
 
-It is premised on anaconda.
+It is premised on anaconda version 1.7.2(Python 3.8.5).
 
 # Setting
 基本的にはパス名と取得したいピーク数を入力するだけです。
