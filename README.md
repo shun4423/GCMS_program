@@ -11,8 +11,6 @@ This program is based on the data analyzed by GCMS QP2010SE (Shimadzu Corporatio
 Sample data is attached as an assumed file, so please check it once.
 
 # Features
-1.絞り込み,2.IFERROR,3.まとめ.ipynb：
-
 １.もっとも高いSIから５〜６こ残し、あとは削除します。これを各ピークで行います。
 
 1. Leave 5 to 6 from the highest SI and delete the rest. Do this at each peak.
@@ -25,7 +23,7 @@ Sample data is attached as an assumed file, so please check it once.
 
 3. Arrange each file in one.
 
-４.整列.ipynb：できるだけ近いRTタイムを並列させます。
+４.できるだけ近いRTタイムを並列させます。
 
 Parallel RT times as close as possible.
 
@@ -35,6 +33,10 @@ Parallel RT times as close as possible.
 anacondaを前提にしています。
 
 It is premised on anaconda version 1.7.2(Python 3.8.5).
+
+VOCをデスクトップに置き、VOC内に「0.textから変換済み」、「1.絞り込み済み」、「2.まとめ」というフォルダーを作成してください。
+
+Place the VOC on the desktop and create folders called "0.Converted _file", "1.filtered", and "2.summary" inside the VOC.
 
 # Setting
 基本的にはパス名と取得したいピーク数を入力するだけです。
